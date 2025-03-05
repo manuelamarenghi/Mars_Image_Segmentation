@@ -2,7 +2,7 @@
 
 ## 🚀 Project Overview
 
-This project focuses on **semantic segmentation** of Mars terrain images using deep learning. The goal is to classify pixels into categories like rocks, soil, and other terrain features with high accuracy, measured by **mean Intersection Over Union (mean IoU)**. We explore advanced techniques in data augmentation, neural network architectures, and optimization to achieve state-of-the-art results.
+This project focuses on **semantic segmentation** of Mars terrain images using deep learning. The goal is to classify pixels into categories like rocks, soil, and other terrain features with high accuracy, measured by mean Intersection Over Union (mean IoU). We explore advanced techniques in data augmentation, neural network architectures, and optimization to achieve state-of-the-art results.
 
 ---
 
@@ -31,24 +31,25 @@ The best performance was achieved using **Dual Attention Unit** and **Dilated Sp
 | With Dual Attention      | 64.90               | 69.91              |
 
 
-Implementation of a more sophisticated augmentation pipeline.
+## 🔮 Future Work
 
-Use of larger architectures (e.g., deeper U-Net++).
+- Implement a more advanced augmentation pipeline.
+- Experiment with deeper architectures like **U-Net++**.
+- Explore effective integration of **transformers** for long-range dependencies.
 
-Effective integration of transformers to capture long-range dependencies.
+---
 
-References
-U-Net: Convolutional Networks for Biomedical Image Segmentation
+## 📚 References
 
-DeepLab: Semantic Image Segmentation with Deep Convolutional Nets
+- [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
+- [DeepLab: Semantic Image Segmentation with Deep Convolutional Nets](https://arxiv.org/abs/1606.00915)
+- [Copy-Paste Augmentation for Instance Segmentation](https://arxiv.org/abs/2012.07177)
 
-Copy-Paste Augmentation for Instance Segmentation
+---
 
-Authors
-Luca Cattani
+## 👥 Authors
 
-Simone Lucca
-
-Manuela Marenghi
-
-Andrada Theodora Pascu
+- Luca Cattani
+- Simone Lucca
+- Manuela Marenghi
+- Andrada Theodora Pascu
